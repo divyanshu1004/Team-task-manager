@@ -105,7 +105,7 @@ const Projects = () => {
         {user?.role === "Admin" && (
           <button
             id="create-project-btn"
-            className="btn btn-primary"
+            className="btn btn-highlight"
             onClick={() => setShowCreate(!showCreate)}
           >
             {showCreate ? "Cancel" : "+ Create Project"}
@@ -148,7 +148,7 @@ const Projects = () => {
             <button
               id="create-project-submit"
               type="submit"
-              className="btn btn-primary"
+              className="btn btn-highlight"
               disabled={createLoading}
             >
               {createLoading ? "Creating..." : "Create Project"}

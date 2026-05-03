@@ -143,7 +143,7 @@ const Tasks = () => {
         {user?.role === "Admin" && (
           <button
             id="create-task-btn"
-            className="btn btn-primary"
+            className="btn btn-highlight"
             onClick={() => setShowCreate(!showCreate)}
           >
             {showCreate ? "Cancel" : "+ Create Task"}
@@ -238,7 +238,7 @@ const Tasks = () => {
             <button
               id="create-task-submit"
               type="submit"
-              className="btn btn-primary"
+              className="btn btn-highlight"
               disabled={createLoading}
             >
               {createLoading ? "Creating..." : "Create Task"}
