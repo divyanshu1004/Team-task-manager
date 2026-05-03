@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/dashboard">📋 Team Task Manager</Link>
+        <Link to="/dashboard">Team Task Manager</Link>
       </div>
       <ul className="navbar-links">
         <li><Link to="/dashboard">Dashboard</Link></li>
