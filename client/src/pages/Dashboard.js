@@ -42,24 +42,24 @@ const Dashboard = () => {
 
       {error && <div className="alert alert-error">{error}</div>}
 
-      <div className="stats-grid">
-        <div className="stat-card">
+      <div className="bento-grid">
+        <div className="bento-card bento-large stat-total">
           <div className="stat-number">{totalTasks}</div>
           <div className="stat-label">Total Tasks</div>
         </div>
-        <div className="stat-card stat-blue">
+        <div className="bento-card stat-blue">
           <div className="stat-number">{inProgress}</div>
           <div className="stat-label">In Progress</div>
         </div>
-        <div className="stat-card stat-green">
+        <div className="bento-card stat-green">
           <div className="stat-number">{completed}</div>
           <div className="stat-label">Completed</div>
         </div>
-        <div className="stat-card stat-yellow">
+        <div className="bento-card stat-yellow">
           <div className="stat-number">{pending}</div>
           <div className="stat-label">Pending</div>
         </div>
-        <div className="stat-card stat-red">
+        <div className="bento-card stat-red">
           <div className="stat-number">{overdue}</div>
           <div className="stat-label">Overdue</div>
         </div>
